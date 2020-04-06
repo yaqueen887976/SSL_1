@@ -13,7 +13,7 @@ public class OracleConnection implements DatabaseConnection{
             Class.forName("oracle.jdbc.driver.OracleDriver");
             Connection con= DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/database1","root","root");
-            //here sonoo is database name, root is username and password
+
             Statement stmt=con.createStatement();
             ResultSet rs=stmt.executeQuery("select * from Employee");
             while(rs.next())

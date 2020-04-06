@@ -13,7 +13,7 @@ public class SqlServerConnection implements DatabaseConnection{
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
             Connection con= DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/database1","root","root");
-            //here sonoo is database name, root is username and password
+
             Statement stmt=con.createStatement();
             ResultSet rs=stmt.executeQuery("select * from Employee");
             while(rs.next())
