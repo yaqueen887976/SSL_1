@@ -1,11 +1,9 @@
-package com.yaqin;
-
-import java.util.*;
+package com.yaqin.Static;
 
 public class BookSeller {
 
     public static void sellBooks(){
-        System.out.println("Value of a : "+Book.book1);
+        System.out.println("Value of a : "+ Book.book1);
         System.out.println("Value of b : "+Book.book2);
         //return result;
     }

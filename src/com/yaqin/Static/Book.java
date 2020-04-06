@@ -1,10 +1,9 @@
-package com.yaqin;
+package com.yaqin.Static;
 
 /*Given a database table “Book” with columns (id, isbn, name, author, publish date),
 define a java class that matches this table and then use a static block to initialize
 this table with some records*/
 
-import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Book {
