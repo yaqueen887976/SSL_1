@@ -43,9 +43,6 @@ public class Collection {
     }
 
 
-
-
-
     @Test
     public void TestTrueFriend(){
         List<String> friendName1 = new ArrayList<>();

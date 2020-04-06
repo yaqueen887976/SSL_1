@@ -12,19 +12,13 @@ public class MyStream{
             this.value = value;
         }
 
-        /*public static List<Number> MyStream(List<Number> values){
 
 
-        }*/
+        public static List<Integer> MyMap(List<Integer> test){
 
-        public static void MyMap(List<Integer> test){
+            List<Integer> collect1 = test.stream().map(n -> n * 3).collect(Collectors.toList());
 
-            System.out.println(test);
-
-            Arrays.stream(test.toArray())
-
-                    .forEach(e-> System.out.print(""+Integer.parseInt((String) e)*3 + " "));
-            //Integer.parseInt(e)*3
+            return collect1;
         }
 }
 

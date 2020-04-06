@@ -1,4 +1,4 @@
-package com.yaqin;
+package com.yaqin.StringHW;
 
 import jdk.jfr.StackTrace;
 import org.junit.Test;

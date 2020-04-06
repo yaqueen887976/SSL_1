@@ -1,4 +1,4 @@
-package com.yaqin;
+package com.yaqin.Serializable;
 
 import java.io.Serializable;
 

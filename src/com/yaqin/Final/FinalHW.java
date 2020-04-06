@@ -1,4 +1,4 @@
-package com.yaqin;
+package com.yaqin.Final;
 
 final class FinalHW {
     //Problems: define a final class and final method and final variable,
